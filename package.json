@@ -1,0 +1,21 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.10.0",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.0.0",
+    "libsodium-wrappers": "^0.7.10",
+    "play-dl": "^1.9.5",
+    "yt-search": "^2.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
